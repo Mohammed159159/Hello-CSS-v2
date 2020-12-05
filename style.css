@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+body{
+    background-image: url("https://images.unsplash.com/photo-1547141646-9b35c56e093e?ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80&fbclid=IwAR3tV_nZ-vplXIWoR5bKQNb4byjXoaRTHErEdIL867wMijhN6YVYEd8nQ7s");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+.welcome-heading{
+    font-family: "Almarai";
+    font-size: 6em;
+}
+.content-heading{
+    font-family: "Almarai";
+    font-size: 3em;
+}
+.main-description, .content-paragraph{
+    font-family: "Cairo";
+    font-size: 1em;
+}
+.content-item{
+    text-align: center;
+    margin: 30px 0 30px 9vmax;
+    width: 33%;
+    border-style: double;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 15px;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.596);
+}
+.content-item:hover{
+    cursor: pointer;
+    font-size: larger;
+    color: rgb(0, 110, 255);
+    text-decoration: underline;
+}
